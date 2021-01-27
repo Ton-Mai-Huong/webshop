@@ -13,3 +13,4 @@
 
 Route::get('/photo','PhotoController@index' );
 Route::resource('default', 'DefaultController');
+Route::resource('category', 'DefaultController');
